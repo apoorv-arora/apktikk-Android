@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Larger blue circle in back -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/colorPrimary"/>
+            <size
+                android:width="@dimen/size32"
+                android:height="@dimen/size32"/>
+        </shape>
+    </item>
+    <!-- Smaller red circle in front -->
+    <item>
+        <shape android:shape="oval">
+            <!-- transparent stroke = larger_circle_size - smaller_circle_size -->
+            <stroke android:color="@android:color/transparent"
+                android:width="@dimen/size5"/>
+            <solid android:color="@color/colorPrimaryDark"/>
+            <size
+                android:width="@dimen/size10"
+                android:height="@dimen/size10"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <!-- transparent stroke = larger_circle_size - smaller_circle_size -->
+            <stroke android:color="@android:color/transparent"
+                android:width="@dimen/size10"/>
+            <solid android:color="@color/colorAccent"/>
+            <size
+                android:width="@dimen/size5"
+                android:height="@dimen/size5"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <!-- transparent stroke = larger_circle_size - smaller_circle_size -->
+            <stroke android:color="@android:color/transparent"
+                android:width="@dimen/size15"/>
+            <solid android:color="@color/white"/>
+            <size
+                android:width="@dimen/size5"
+                android:height="@dimen/size5"/>
+        </shape>
+    </item>
+</layer-list>

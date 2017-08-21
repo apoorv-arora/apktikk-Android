@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <in.fine.artist.home.utils.views.TextViewMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/speak_the_word"
+            android:textSize="@dimen/size18"
+            android:padding="@dimen/size10"
+            android:textColor="@color/white_trans_thirty_five"/>
+
+        <in.fine.artist.home.utils.views.TextViewMedium
+            android:id="@+id/word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/height52"
+            android:text="asdass"
+            android:padding="@dimen/size10"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/submit_container"
+        android:layout_below="@id/top_container"
+        android:gravity="center">
+
+        <include
+            android:id="@+id/right_tick_container"
+            android:layout_width="@dimen/height100"
+            android:layout_height="@dimen/height100"
+            android:layout_marginTop="@dimen/size32"
+            layout="@layout/layout_right_arrow" />
+
+    </RelativeLayout>
+
+    <include
+        android:id="@id/submit_container"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height48"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/size20"
+        layout="@layout/layout_submit" />
+
+</RelativeLayout>

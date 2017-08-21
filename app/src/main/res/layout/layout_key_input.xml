@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/layout_corners"
+    android:layout_height="@dimen/action_bar_height">
+
+    <in.fine.artist.home.utils.views.IconView
+        android:id="@+id/negate"
+        android:layout_width="@dimen/action_bar_height"
+        android:layout_height="@dimen/action_bar_height"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/size24"
+        android:gravity="center"
+        android:background="@color/zhl"
+        android:text="-"
+        android:textColor="@color/zhl_darkest"/>
+
+    <View
+        android:id="@+id/negate_separator"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/negate"
+        android:background="@color/zhl_darkest"/>
+
+    <in.fine.artist.home.utils.views.IconView
+        android:id="@+id/positive"
+        android:layout_width="@dimen/action_bar_height"
+        android:layout_height="@dimen/action_bar_height"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/size24"
+        android:gravity="center"
+        android:background="@color/zhl"
+        android:text="+"
+        android:textColor="@color/zhl_darkest"/>
+
+    <View
+        android:id="@+id/positive_separator"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/positive"
+        android:background="@color/zhl_darkest"/>
+
+    <in.fine.artist.home.utils.views.EditTextRegular
+        android:id="@+id/key"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/positive_separator"
+        android:layout_toRightOf="@id/negate_separator"
+        android:padding="@dimen/size10"
+        android:maxLength="2"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size24"/>
+
+</RelativeLayout>

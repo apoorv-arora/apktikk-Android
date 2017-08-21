@@ -1,0 +1,43 @@
+<resources>
+    <string name="fb_app_id">509486789397968</string>
+    <string name="app_name">Apptick</string>
+    <string name="submit">Submit</string>
+
+    <string name="no_internet_message">No internet connection</string>
+    <string name="update_play_services">Please update Play Services</string>
+    <string name="empty_view_title">No entries for now!</string>
+    <string name="empty_view_description">Please check back again</string>
+    <string name="action_logout">Logout</string>
+    <string name="could_not_connect">Could not connect to server</string>
+    <string name="skip">Skip login</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="tnc">Terms</string>
+    <string name="about_us">About us</string>
+    <string name="help">Help</string>
+    <string name="done">Done</string>
+    <string name="settings">Settings</string>
+    <string name="logging_out">Logging out. Please wait...</string>
+    <string name="terms_conditions_title">Terms and conditions</string>
+    <string name="login">Login</string>
+    <string name="login_to_continue">Please login to continue</string>
+    <string name="signingup_wait">Verifying credentials!\nPlease wait...</string>
+    <string name="err_occurred">An error occurred. Please try again.</string>
+    <string name="email_required_text">OOPS!\n We couldn\'t fetch email.</string>
+    <string name="email_required_hint">Email</string>
+    <string name="retry">Retry</string>
+    <string name="zero_results">No results found</string>
+
+    <!-- new strings below this line -->
+
+    <string name="input_name_hint">What\’s your name?</string>
+    <string name="input_age_hint">How old are you?</string>
+    <string name="boy">Boy</string>
+    <string name="girl">Girl</string>
+    <string name="are_you_a">Are you a...</string>
+    <string name="speak_the_word">Speak the word</string>
+    <string name="speak_the_sentence">Speak the sentence</string>
+    <string name="test_begins_in">Test beings in</string>
+    <string name="test_to_access_skill_level">We are going to do a test to assess your skill level</string>
+
+</resources>

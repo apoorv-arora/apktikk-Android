@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <in.fine.artist.home.utils.views.TextViewMedium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_name_hint"
+        android:textSize="@dimen/size24"
+        android:textColor="@color/white"/>
+
+    <in.fine.artist.home.utils.views.EditTextRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_rounded_whitebg"
+        android:layout_marginLeft="@dimen/size32"
+        android:layout_marginRight="@dimen/size32"
+        android:gravity="center"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_marginTop="@dimen/size32"
+        android:padding="@dimen/size10"/>
+
+    <include
+        android:id="@+id/right_tick_container"
+        android:layout_width="@dimen/height100"
+        android:layout_height="@dimen/height100"
+        android:layout_marginTop="@dimen/size32"
+        layout="@layout/layout_right_arrow" />
+
+</LinearLayout>
